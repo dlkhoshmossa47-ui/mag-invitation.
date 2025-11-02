@@ -1,0 +1,20 @@
+:root{--soft-blue:#e8f1ff;--deep-blue:#0b3a7a;--card:#fff;--ink:#0f172a;}
+body{margin:0;background:linear-gradient(180deg,var(--soft-blue),#fff);
+font-family:'Inter','Cairo',sans-serif;color:var(--ink)}
+.page{max-width:980px;margin:36px auto;padding:16px}
+.brand{text-align:right;margin-bottom:8px}
+.brand img{height:56px}
+.card{background:var(--card);border-radius:14px;box-shadow:0 10px 25px rgba(2,19,54,.15);
+padding:0;margin:16px auto;max-width:860px;}
+.card-inner{padding:28px}
+h1{font-size:28px;color:var(--deep-blue);margin:0 0 8px;font-weight:800}
+h3{margin:14px 0 6px;color:#123b7a}
+p{margin:0 0 8px;line-height:1.7}
+ul.details{margin:0 0 12px 22px;padding:0}
+ul.details li{margin:4px 0}
+hr{margin:22px 0;border:0;border-top:1px solid rgba(0,0,0,.1)}
+.closer{font-weight:700;margin-top:8px}
+.smt{font-weight:600;color:#444;margin-top:6px}
+.actions button{background:#fff;border:1px solid rgba(11,58,122,.2);padding:10px 14px;border-radius:10px;
+font-weight:800;color:#0b3a7a;box-shadow:0 6px 16px rgba(11,58,122,.08);cursor:pointer;}
+.actions button:hover{transform:translateY(-1px)}
